@@ -9,4 +9,4 @@ class Vendor (models.Model):
     address=models.TextField(max_length=250)
 
     def __str__(self):
-        return f'{self.name} with id {self.unique_vendor_code}'
+        return self.name
